@@ -2,6 +2,8 @@
 
 **spine_core_and_pangenome.pl** - Uses position counts output by Spine (when not using the --mini option) to calculate sizes of the pangenome, core genome, and novel genomic sequence for every combination of genomes from 1 to n where n is the total number of genomes given to Spine.  Also calculates the core genome size of every possible combination of the n genomes at every possible definition of core genome, i.e. from requiring that a base be present in all n genomes to be considered core (absent from 0), to that a base can be present in only 1 of the n genomes to be considered core (absent fron n - 1).
 
+Spine can be found here: [https://github.com/egonozer/Spine](https://github.com/egonozer/Spine)
+
 ## Install
 Make sure the **scripts** directory stays in the same directory as the **spine_core_and_pangenome.pl** script.
 
